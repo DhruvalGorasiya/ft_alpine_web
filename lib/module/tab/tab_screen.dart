@@ -1,5 +1,6 @@
 import 'package:ft_chetak_books/module/tab/tab_controller.dart';
 import 'package:ft_chetak_books/package/config_packages.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class TabBarScreen extends StatelessWidget {
   const TabBarScreen({super.key});
@@ -98,7 +99,7 @@ Widget _bodyWidget(context) {
 //             width: 390,
 //             padding: const EdgeInsets.only(left: 20, right: 20),
 //             child: TextFormField(
-//               style: const TextStyle().normal14w500.textColor(AppColor.black),
+//               style: GoogleFonts.genos().normal14w500.textColor(AppColor.black),
 //               cursorColor: AppColor.black,
 //               decoration: InputDecoration(
 //                 isDense: true,
@@ -109,7 +110,7 @@ Widget _bodyWidget(context) {
 //                   Icons.search,
 //                   color: AppColor.orangeColor,
 //                 ),
-//                 hintStyle: const TextStyle()
+//                 hintStyle: GoogleFonts.genos()
 //                     .normal14w500
 //                     .textColor(AppColor.orangeColor),
 //                 fillColor: AppColor.black.withOpacity(.04),
@@ -196,7 +197,7 @@ Widget _menuWidget(context) {
                           Expanded(
                             child: Text(
                               tabBarController.tabBar[index]['text'],
-                              style: const TextStyle().normal20w500g.textColor(
+                              style: GoogleFonts.genos().normal20w500g.textColor(
                                     tabBarController.selectedIndex.value ==
                                             index
                                         ? AppColor.accentColor

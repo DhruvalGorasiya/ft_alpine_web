@@ -1,3 +1,5 @@
+import 'package:google_fonts/google_fonts.dart';
+
 import '../package/config_packages.dart';
 
 class CommonButton extends StatelessWidget {
@@ -51,7 +53,7 @@ class CommonButton extends StatelessWidget {
           child: Text(
             text!,
             style: style ??
-                const TextStyle().normal26w600g.textColor(AppColor.white),
+                GoogleFonts.genos().normal26w600g.textColor(AppColor.white),
           ),
         ),
       ),

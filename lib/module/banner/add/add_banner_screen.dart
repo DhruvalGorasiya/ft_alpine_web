@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ft_chetak_books/module/banner/add/add_banner_controller.dart';
 import 'package:ft_chetak_books/package/config_packages.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
 
 import '../../../models/banner_modcel.dart';
@@ -51,12 +52,12 @@ class _AddbannerScreenState extends State<AddbannerScreen> {
             const Gap(10),
             Text(
               "Banners / Add Banners",
-              style: const TextStyle().normal28w400,
+              style: GoogleFonts.genos().normal28w400,
             ),
             const Gap(20),
             Text(
               "Page",
-              style: const TextStyle().normal18w500g.textColor(AppColor.grayColor),
+              style: GoogleFonts.genos().normal18w500g.textColor(AppColor.grayColor),
             ),
             Gap(10),
             Obx(
@@ -93,7 +94,7 @@ class _AddbannerScreenState extends State<AddbannerScreen> {
             Gap(20),
             Text(
               "ADD HORIZONTAL IMAGES",
-              style: const TextStyle().normal20w400,
+              style: GoogleFonts.genos().normal20w400,
             ),
             const Gap(22),
             Responsive.isDesktop(context)
@@ -118,7 +119,7 @@ class _AddbannerScreenState extends State<AddbannerScreen> {
                                 const Gap(15),
                                 Text(
                                   "Upload photos",
-                                  style: const TextStyle().normal16w500g,
+                                  style: GoogleFonts.genos().normal16w500g,
                                 ),
                               ],
                             )),
@@ -225,7 +226,7 @@ class _AddbannerScreenState extends State<AddbannerScreen> {
                                 const Gap(15),
                                 Text(
                                   "Upload photos",
-                                  style: const TextStyle().normal16w500g,
+                                  style: GoogleFonts.genos().normal16w500g,
                                 ),
                               ],
                             )),

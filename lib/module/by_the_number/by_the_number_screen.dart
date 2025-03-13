@@ -1,5 +1,6 @@
 import 'package:ft_chetak_books/components/input_field.dart';
 import 'package:ft_chetak_books/package/config_packages.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import 'by_the_number_controller.dart';
 
@@ -34,16 +35,16 @@ class _ByTheNumberScreenState extends State<ByTheNumberScreen> {
             children: [
               Text(
                 "Pages / By the number",
-                style: const TextStyle().normal20w300g,
+                style: GoogleFonts.genos().normal20w300g,
               ),
               Text(
                 "BY THE NUMBER",
-                style: const TextStyle().normal28w400,
+                style: GoogleFonts.genos().normal28w400,
               ),
               const Gap(34),
               Text(
                 "Sq Carpet Area Of Completed Projects",
-                style: const TextStyle()
+                style: GoogleFonts.genos()
                     .normal18w500g
                     .textColor(AppColor.grayColor),
               ),
@@ -53,12 +54,12 @@ class _ByTheNumberScreenState extends State<ByTheNumberScreen> {
                 byTheNumberController.projectAreaController,
                 hint: "20lacs sq ft",
                 hintStyle:
-                const TextStyle().normal18w400g.textColor(AppColor.black),
+                GoogleFonts.genos().normal18w400g.textColor(AppColor.black),
               ),
               const Gap(18),
               Text(
                 "Years Of Experience",
-                style: const TextStyle()
+                style: GoogleFonts.genos()
                     .normal18w500g
                     .textColor(AppColor.grayColor),
               ),
@@ -67,12 +68,12 @@ class _ByTheNumberScreenState extends State<ByTheNumberScreen> {
                 controller: byTheNumberController.experienceController,
                 hint: "14 years",
                 hintStyle:
-                const TextStyle().normal18w400g.textColor(AppColor.black),
+                GoogleFonts.genos().normal18w400g.textColor(AppColor.black),
               ),
               const Gap(18),
               Text(
                 "Sq Carpet Area Of Ongoing Projects",
-                style: const TextStyle()
+                style: GoogleFonts.genos()
                     .normal18w500g
                     .textColor(AppColor.grayColor),
               ),
@@ -81,7 +82,7 @@ class _ByTheNumberScreenState extends State<ByTheNumberScreen> {
                 controller: byTheNumberController.ongoingProjectAreaController,
                 hint: "50 lacs sq ft",
                 hintStyle:
-                const TextStyle().normal18w400g.textColor(AppColor.black),
+                GoogleFonts.genos().normal18w400g.textColor(AppColor.black),
               ),
 
               const Gap(34),

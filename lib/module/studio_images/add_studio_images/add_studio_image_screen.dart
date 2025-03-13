@@ -1,4 +1,5 @@
 import 'package:ft_chetak_books/package/config_packages.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
 
 import '../../../components/common_function.dart';
@@ -50,12 +51,12 @@ class _AddStudioImageScreenState extends State<AddStudioImageScreen> {
               Gap(10),
               Text(
                 "Pages / Studio images / Add Studio images",
-                style: const TextStyle().normal20w300g,
+                style: GoogleFonts.genos().normal20w300g,
                 overflow: TextOverflow.ellipsis,
               ),
               Text(
                 "ADD STUDIO IMAGES",
-                style: Responsive.isDesktop(context) ? TextStyle().normal28w400 : TextStyle().normal22w700,
+                style: Responsive.isDesktop(context) ? GoogleFonts.genos().normal28w400 : GoogleFonts.genos().normal22w700,
                 overflow: TextOverflow.ellipsis,
               ),
               const Gap(34),
@@ -80,7 +81,7 @@ class _AddStudioImageScreenState extends State<AddStudioImageScreen> {
                           const Gap(15),
                           Text(
                             "Upload photos",
-                            style: const TextStyle().normal16w500g,
+                            style: GoogleFonts.genos().normal16w500g,
                           ),
                         ],
                       )),
@@ -235,7 +236,7 @@ class _AddStudioImageScreenState extends State<AddStudioImageScreen> {
               const Gap(34),
               Text(
                 "Ratio- 16:9 / H:590 - W:1042 / File type: PNG-JPG",
-                style: const TextStyle().normal20w300g,
+                style: GoogleFonts.genos().normal20w300g,
               ),
               const Gap(34),
               CommonAppButton(

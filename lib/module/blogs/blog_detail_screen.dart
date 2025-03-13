@@ -1,5 +1,6 @@
 import 'package:ft_chetak_books/components/common_function.dart';
 import 'package:ft_chetak_books/module/blogs/blog_detail_controller.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
 
 import '../../../package/config_packages.dart';
@@ -42,11 +43,11 @@ class _AddBlogDetailScreenState extends State<AddBlogDetailScreen> {
                     children: [
                       Text(
                         "Pages / Blogs",
-                        style: const TextStyle().normal20w300g,
+                        style: GoogleFonts.genos().normal20w300g,
                       ),
                       Text(
                         "BLOG LIST",
-                        style: const TextStyle().normal28w400,
+                        style: GoogleFonts.genos().normal28w400,
                       ),
                       const Gap(34),
                     ],
@@ -108,8 +109,8 @@ class _AddBlogDetailScreenState extends State<AddBlogDetailScreen> {
                                             .toString() ??
                                         "",
                                     style: Responsive.isDesktop(context)
-                                        ? TextStyle().normal20w400
-                                        : TextStyle().normal16w400,
+                                        ? GoogleFonts.genos().normal20w400
+                                        : GoogleFonts.genos().normal16w400,
                                     overflow: TextOverflow.ellipsis,
                                     softWrap: true,
                                   ),

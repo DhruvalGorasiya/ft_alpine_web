@@ -4,6 +4,7 @@ import 'package:ft_chetak_books/components/common_column_sidebar.dart';
 import 'package:ft_chetak_books/module/authentication/login/login_controller.dart';
 import 'package:ft_chetak_books/module/authentication/reset%20password/reset_password_screen.dart';
 import 'package:ft_chetak_books/package/config_packages.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../../../components/input_field.dart';
 
@@ -44,7 +45,7 @@ class _LogInScreenState extends State<LogInScreen> {
                           children: [
                             Text(
                               "Log In",
-                              style: const TextStyle()
+                              style: GoogleFonts.genos()
                                   .normal24w400
                                   .textColor(AppColor.black2Color),
                             ),
@@ -72,7 +73,7 @@ class _LogInScreenState extends State<LogInScreen> {
                                   color: AppColor.grayDarkColor,
                                 ),
                                 hint: "Enter Email",
-                                hintStyle: TextStyle()
+                                hintStyle: GoogleFonts.genos()
                                     .normal16w400g
                                     .textColor(AppColor.gray3Color),
                               ),
@@ -101,7 +102,7 @@ class _LogInScreenState extends State<LogInScreen> {
                                   color: AppColor.grayDarkColor,
                                 ),
                                 hint: "Enter password",
-                                hintStyle: TextStyle()
+                                hintStyle: GoogleFonts.genos()
                                     .normal16w400g
                                     .textColor(AppColor.gray3Color),
                               ),
@@ -115,7 +116,7 @@ class _LogInScreenState extends State<LogInScreen> {
                               },
                               child: Text(
                                 "Reset password",
-                                style: const TextStyle()
+                                style: GoogleFonts.genos()
                                     .normal16w500g
                                     .textColor(AppColor.gray3Color),
                               ),
@@ -137,7 +138,7 @@ class _LogInScreenState extends State<LogInScreen> {
                                 }),
                                 const Gap(6),
                                 Text("Remember Me",
-                                    style: const TextStyle()
+                                    style: GoogleFonts.genos()
                                         .normal16w400g
                                         .textColor(AppColor.black2Color),
                                     softWrap: true,
@@ -171,7 +172,7 @@ class _LogInScreenState extends State<LogInScreen> {
                         children: [
                           Text(
                             "Log In",
-                            style: const TextStyle()
+                            style: GoogleFonts.genos()
                                 .normal24w400
                                 .textColor(AppColor.black2Color),
                           ),
@@ -199,7 +200,7 @@ class _LogInScreenState extends State<LogInScreen> {
                                 color: AppColor.grayDarkColor,
                               ),
                               hint: "Enter Email",
-                              hintStyle: TextStyle()
+                              hintStyle: GoogleFonts.genos()
                                   .normal14w500
                                   .textColor(AppColor.gray3Color),
                               borderColor: Colors.transparent,
@@ -229,7 +230,7 @@ class _LogInScreenState extends State<LogInScreen> {
                                 color: AppColor.grayDarkColor,
                               ),
                               hint: "Enter password",
-                              hintStyle: TextStyle()
+                              hintStyle: GoogleFonts.genos()
                                   .normal16w400g
                                   .textColor(AppColor.gray3Color),
                               borderColor: Colors.transparent,
@@ -244,7 +245,7 @@ class _LogInScreenState extends State<LogInScreen> {
                             },
                             child: Text(
                               "Reset password",
-                              style: const TextStyle()
+                              style: GoogleFonts.genos()
                                   .normal16w500g
                                   .textColor(AppColor.gray3Color),
                             ),
@@ -267,7 +268,7 @@ class _LogInScreenState extends State<LogInScreen> {
                               const Gap(6),
                               Expanded(
                                 child: Text("Remember Me",
-                                    style: const TextStyle()
+                                    style: GoogleFonts.genos()
                                         .normal16w400g
                                         .textColor(AppColor.black2Color),
                                     softWrap: true,

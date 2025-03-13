@@ -1,5 +1,6 @@
 import 'package:ft_chetak_books/module/authentication/reset%20password/reset_password_controller.dart';
 import 'package:ft_chetak_books/package/config_packages.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:timer_count_down/timer_count_down.dart';
 import '../../../components/common_button.dart';
 import '../../../components/common_column_sidebar.dart';
@@ -39,12 +40,12 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
                           children: [
                             Text(
                               "Reset Password",
-                              style: const TextStyle().normal24w400.textColor(AppColor.black2Color),
+                              style: GoogleFonts.genos().normal24w400.textColor(AppColor.black2Color),
                             ),
                             const Gap(13),
                             Text(
                               "Enter the email associated with your account and we’ll send an email with instructions to reset your password.",
-                              style: const TextStyle().normal16w400g.textColor(AppColor.black2Color),
+                              style: GoogleFonts.genos().normal16w400g.textColor(AppColor.black2Color),
                               textAlign: TextAlign.center,
                             ),
                             const Gap(25),
@@ -69,7 +70,7 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
                                   size: 20,
                                 ),
                                 hint: "Enter Email",
-                                hintStyle: const TextStyle().normal16w400g.textColor(AppColor.gray3Color),
+                                hintStyle: GoogleFonts.genos().normal16w400g.textColor(AppColor.gray3Color),
                                 borderColor: Colors.transparent,
                               ),
                             ),
@@ -94,7 +95,7 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
 
                                 return Text(
                                   "Re-send Instructions in $formattedTime",
-                                  style: const TextStyle().normal20w400g.textColor(
+                                  style: GoogleFonts.genos().normal20w400g.textColor(
                                         AppColor.black3Color,
                                       ),
                                 );
@@ -119,12 +120,12 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
                         children: [
                           Text(
                             "Reset Password",
-                            style: const TextStyle().normal24w400.textColor(AppColor.black2Color),
+                            style: GoogleFonts.genos().normal24w400.textColor(AppColor.black2Color),
                           ),
                           const Gap(13),
                           Text(
                             "Enter the email associated with your account and we’ll send an email with instructions to reset your password.",
-                            style: const TextStyle().normal16w400g.textColor(AppColor.black2Color),
+                            style: GoogleFonts.genos().normal16w400g.textColor(AppColor.black2Color),
                             textAlign: TextAlign.center,
                           ),
                           const Gap(25),
@@ -149,7 +150,7 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
                                 size: 20,
                               ),
                               hint: "Enter Email",
-                              hintStyle: const TextStyle().normal16w400g.textColor(AppColor.gray3Color),
+                              hintStyle: GoogleFonts.genos().normal16w400g.textColor(AppColor.gray3Color),
                               borderColor: Colors.transparent,
                             ),
                           ),
@@ -173,7 +174,7 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
 
                               return Text(
                                 "Re-send Instructions in $formattedTime",
-                                style: const TextStyle().normal20w400g.textColor(
+                                style: GoogleFonts.genos().normal20w400g.textColor(
                                       AppColor.black3Color,
                                     ),
                               );

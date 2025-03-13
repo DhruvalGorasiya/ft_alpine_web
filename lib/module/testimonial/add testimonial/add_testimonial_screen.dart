@@ -1,6 +1,7 @@
 import 'package:ft_chetak_books/components/input_field.dart';
 import 'package:ft_chetak_books/module/testimonial/add%20testimonial/add_testimonial_controller.dart';
 import 'package:ft_chetak_books/package/config_packages.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../../../models/get_testimonial_model.dart';
 
 class AddTestimonialScreen extends StatefulWidget {
@@ -46,45 +47,45 @@ class _AddTestimonialScreenState extends State<AddTestimonialScreen> {
               Gap(10),
               Text(
                 "Pages / Testimonials / Add Testimonial",
-                style: const TextStyle().normal20w300g,
+                style: GoogleFonts.genos().normal20w300g,
               ),
               Text(
                 "ADD TESTIMONIAL",
-                style: const TextStyle().normal28w400,
+                style: GoogleFonts.genos().normal28w400,
               ),
               const Gap(34),
               Text(
                 "Client name",
-                style: const TextStyle().normal18w500g.textColor(AppColor.grayColor),
+                style: GoogleFonts.genos().normal18w500g.textColor(AppColor.grayColor),
               ),
               const Gap(8),
               InputField(
                 controller: addTestimonialController.clientNameController,
                 hint: "Enter here",
-                hintStyle: const TextStyle().normal18w400g.textColor(AppColor.black),
+                hintStyle: GoogleFonts.genos().normal18w400g.textColor(AppColor.black),
               ),
               const Gap(18),
               Text(
                 "Client designation",
-                style: const TextStyle().normal18w500g.textColor(AppColor.grayColor),
+                style: GoogleFonts.genos().normal18w500g.textColor(AppColor.grayColor),
               ),
               const Gap(8),
               InputField(
                 controller: addTestimonialController.clientDesignationController,
                 hint: "Enter here",
-                hintStyle: const TextStyle().normal18w400g.textColor(AppColor.black),
+                hintStyle: GoogleFonts.genos().normal18w400g.textColor(AppColor.black),
               ),
               const Gap(18),
               Text(
                 "Feedback",
-                style: const TextStyle().normal18w500g.textColor(AppColor.grayColor),
+                style: GoogleFonts.genos().normal18w500g.textColor(AppColor.grayColor),
               ),
               const Gap(8),
               InputField(
                 maxLine: 5,
                 controller: addTestimonialController.feedbackController,
                 hint: "Enter here",
-                hintStyle: const TextStyle().normal18w400g.textColor(AppColor.black),
+                hintStyle: GoogleFonts.genos().normal18w400g.textColor(AppColor.black),
               ),
               const Gap(34),
               CommonAppButton(

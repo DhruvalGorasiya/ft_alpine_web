@@ -1,5 +1,6 @@
 import 'package:ft_chetak_books/package/config_packages.dart';
 import 'package:ft_chetak_books/package/screen_packages.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 
 import 'home_page_controller.dart';
@@ -38,17 +39,17 @@ class _HomePageScreenState extends State<HomePageScreen> {
           children: [
             Text(
               "Pages / Home page video",
-              style: const TextStyle().normal20w300g,
+              style: GoogleFonts.genos().normal20w300g,
             ),
             const Gap(8),
             Text(
               "HOME PAGE VIDEO",
-              style: const TextStyle().normal28w400,
+              style: GoogleFonts.genos().normal28w400,
             ),
             const Gap(16),
             Text(
               "Video Ratio- 16:9",
-              style: const TextStyle().normal20w300g,
+              style: GoogleFonts.genos().normal20w300g,
             ),
             const Gap(20),
             Obx(

@@ -1,5 +1,6 @@
 import 'package:ft_chetak_books/components/common_function.dart';
 import 'package:ft_chetak_books/package/config_packages.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
 import 'add_gallery_controller.dart';
 import '../../../models/get_gallery_model.dart';
@@ -68,17 +69,17 @@ class _AddGalleryScreenState extends State<AddGalleryScreen> {
                 Gap(10),
                 Text(
                   "Pages / Gallery / ${widget.name.toString()}  ",
-                  style: const TextStyle().normal20w300g,
+                  style: GoogleFonts.genos().normal20w300g,
                 ),
                 Text(
                   widget.name.toString(),
-                  style: Responsive.isDesktop(context) ? TextStyle().normal28w400 : TextStyle().normal22w700,
+                  style: Responsive.isDesktop(context) ? GoogleFonts.genos().normal28w400 : GoogleFonts.genos().normal22w700,
                   overflow: TextOverflow.ellipsis,
                 ),
                 const Gap(34),
                 Text(
                   "ADD VERTICAL IMAGES",
-                  style: const TextStyle().normal20w400,
+                  style: GoogleFonts.genos().normal20w400,
                 ),
                 const Gap(22),
                 Row(
@@ -105,7 +106,7 @@ class _AddGalleryScreenState extends State<AddGalleryScreen> {
                             const Gap(15),
                             Text(
                               "Upload photos",
-                              style: const TextStyle().normal16w500g,
+                              style: GoogleFonts.genos().normal16w500g,
                             ),
                           ],
                         )),
@@ -179,12 +180,12 @@ class _AddGalleryScreenState extends State<AddGalleryScreen> {
                 ),
                 Text(
                   "Ratio- 16:9 / H:442 - W:248 / File type: PNG-JPG",
-                  style: const TextStyle().normal20w300g,
+                  style: GoogleFonts.genos().normal20w300g,
                 ),
                 const Gap(34),
                 Text(
                   "ADD HORIZONTAL IMAGES",
-                  style: const TextStyle().normal20w400,
+                  style: GoogleFonts.genos().normal20w400,
                 ),
                 const Gap(22),
                 Row(
@@ -211,7 +212,7 @@ class _AddGalleryScreenState extends State<AddGalleryScreen> {
                             const Gap(15),
                             Text(
                               "Upload photos",
-                              style: const TextStyle().normal16w500g,
+                              style: GoogleFonts.genos().normal16w500g,
                             ),
                           ],
                         )),
@@ -307,7 +308,7 @@ class _AddGalleryScreenState extends State<AddGalleryScreen> {
                 ),
                 Text(
                   "Ratio- 16:9 / H:442 - W:788 / File type: PNG-JPG",
-                  style: const TextStyle().normal20w300g,
+                  style: GoogleFonts.genos().normal20w300g,
                 ),
                 const Gap(34),
                 CommonAppButton(

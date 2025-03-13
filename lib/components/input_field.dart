@@ -1,4 +1,5 @@
 import 'package:ft_chetak_books/package/config_packages.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 typedef OnValidation = dynamic Function(String? text);
 
@@ -68,7 +69,7 @@ class InputField extends StatelessWidget {
       obscureText: obscureText,
       maxLines: maxLine,
       inputFormatters: inputFormatter ?? [],
-      style: const TextStyle().normal16w500,
+      style: GoogleFonts.genos().normal16w500,
       decoration: InputDecoration(
         suffix: suffixIcon,
         contentPadding: const EdgeInsets.symmetric(

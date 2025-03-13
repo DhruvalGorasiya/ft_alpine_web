@@ -3,6 +3,7 @@ import 'package:ft_chetak_books/components/common_function.dart';
 import 'package:ft_chetak_books/module/portfolio/portfolio%20detail/portfolio_detail_screen.dart';
 import 'package:ft_chetak_books/module/tab/tab_controller.dart';
 import 'package:ft_chetak_books/package/config_packages.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../../models/category_model.dart';
 
@@ -26,11 +27,11 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
           children: [
             Text(
               "Pages / Portfolio",
-              style: const TextStyle().normal20w300g,
+              style: GoogleFonts.genos().normal20w300g,
             ),
             Text(
               "PORTFOLIO CATEGORY LIST",
-              style: const TextStyle().normal28w400,
+              style: GoogleFonts.genos().normal28w400,
             ),
             const Gap(34),
             Expanded(
@@ -87,7 +88,7 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
                                   children: [
                                     Text(
                                       data?.name??"",
-                                      style: const TextStyle().normal14w400.textColor(AppColor.white),
+                                      style: GoogleFonts.genos().normal14w400.textColor(AppColor.white),
                                     ),
                                   ],
                                 ),

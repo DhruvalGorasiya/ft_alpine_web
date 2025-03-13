@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Constant {
   static String fontFamily = "AudioWide";
@@ -14,7 +15,8 @@ extension TextStyleExtensions on TextStyle {
         fontSize: 24,
         letterSpacing: 0.0,
         weight: FontWeight.w700,
-      ); TextStyle get normal24w400 => customStyle(
+      );
+  TextStyle get normal24w400 => customStyle(
         fontSize: 24,
         letterSpacing: 0.0,
         weight: FontWeight.w400,
@@ -24,29 +26,20 @@ extension TextStyleExtensions on TextStyle {
         fontSize: 20,
         letterSpacing: 0.0,
         weight: FontWeight.w500,
-
-      ); TextStyle get normal20w500g => customStyle(
-        fontSize: 20,
-        letterSpacing: 0.0,
-        weight: FontWeight.w500,
-    fontFamily: Constant.genos
-
       );
+  TextStyle get normal20w500g => customStyle(fontSize: 20, letterSpacing: 0.0, weight: FontWeight.w500, fontFamily: Constant.genos);
   TextStyle get normal20w300 => customStyle(
         fontSize: 20,
         letterSpacing: 0.0,
         weight: FontWeight.w300,
-      );  TextStyle get normal20w300g => customStyle(
-        fontSize: 20,
-        letterSpacing: 0.0,
-        weight: FontWeight.w300,
-    fontFamily: Constant.genos
       );
+  TextStyle get normal20w300g => customStyle(fontSize: 20, letterSpacing: 0.0, weight: FontWeight.w300, fontFamily: Constant.genos);
   TextStyle get normal20w100 => customStyle(
         fontSize: 20,
         letterSpacing: 0.0,
         weight: FontWeight.w100,
-      );TextStyle get normal20w400 => customStyle(
+      );
+  TextStyle get normal20w400 => customStyle(
         fontSize: 20,
         letterSpacing: 0.0,
         weight: FontWeight.w400,
@@ -56,18 +49,15 @@ extension TextStyleExtensions on TextStyle {
         fontSize: 18,
         letterSpacing: 0.0,
         weight: FontWeight.w700,
-      ); TextStyle get normal18w700g => customStyle(
-        fontSize: 18,
-        letterSpacing: 0.0,
-        weight: FontWeight.w700,
-    fontFamily: Constant.genos
       );
+  TextStyle get normal18w700g => customStyle(fontSize: 18, letterSpacing: 0.0, weight: FontWeight.w700, fontFamily: Constant.genos);
 
   TextStyle get normal28w700 => customStyle(
         fontSize: 28,
         letterSpacing: 0.0,
         weight: FontWeight.w700,
-      ); TextStyle get normal28w400 => customStyle(
+      );
+  TextStyle get normal28w400 => customStyle(
         fontSize: 28,
         letterSpacing: 0.0,
         weight: FontWeight.w400,
@@ -84,35 +74,21 @@ extension TextStyleExtensions on TextStyle {
         fontSize: 24,
         letterSpacing: 0.0,
         weight: FontWeight.w500,
-      );  TextStyle get normal24w500g => customStyle(
-        fontSize: 24,
-        letterSpacing: 0.0,
-        weight: FontWeight.w500,
-    fontFamily: Constant.genos
       );
+  TextStyle get normal24w500g => customStyle(fontSize: 24, letterSpacing: 0.0, weight: FontWeight.w500, fontFamily: Constant.genos);
 
   TextStyle get normal16w500 => customStyle(
         fontSize: 16,
         letterSpacing: 0.0,
         weight: FontWeight.w500,
       );
-  TextStyle get normal16w500g => customStyle(
-        fontSize: 16,
-        letterSpacing: 0.0,
-        weight: FontWeight.w500,
-    fontFamily: Constant.genos
-      );
+  TextStyle get normal16w500g => customStyle(fontSize: 16, letterSpacing: 0.0, weight: FontWeight.w500, fontFamily: Constant.genos);
   TextStyle get normal16w400 => customStyle(
         fontSize: 16,
         letterSpacing: 0.0,
         weight: FontWeight.w400,
       );
-  TextStyle get normal16w400g => customStyle(
-        fontSize: 16,
-        letterSpacing: 0.0,
-        weight: FontWeight.w400,
-        fontFamily: Constant.genos
-      );
+  TextStyle get normal16w400g => customStyle(fontSize: 16, letterSpacing: 0.0, weight: FontWeight.w400, fontFamily: Constant.genos);
 
   TextStyle get normal16w600 => customStyle(
         fontSize: 16,
@@ -132,24 +108,25 @@ extension TextStyleExtensions on TextStyle {
         weight: FontWeight.w700,
       );
   TextStyle get normal21w400 => customStyle(
-    fontSize: 21,
-    letterSpacing: 0.0,
-    weight: FontWeight.w400,
-  );
+        fontSize: 21,
+        letterSpacing: 0.0,
+        weight: FontWeight.w400,
+      );
   TextStyle get normal32w600 => customStyle(
         fontSize: 32,
         letterSpacing: 0.0,
         weight: FontWeight.w600,
-      ); TextStyle get normal26w600 => customStyle(
+      );
+  TextStyle get normal26w600 => customStyle(
         fontSize: 26,
         letterSpacing: 0.0,
         weight: FontWeight.w600,
       );
   TextStyle get normal32w700 => customStyle(
-    fontSize: 32,
-    letterSpacing: 0.0,
-    weight: FontWeight.w700,
-  );
+        fontSize: 32,
+        letterSpacing: 0.0,
+        weight: FontWeight.w700,
+      );
   TextStyle get normal22w600 => customStyle(
         fontSize: 22,
         letterSpacing: 0.0,
@@ -159,22 +136,18 @@ extension TextStyleExtensions on TextStyle {
         fontSize: 22,
         letterSpacing: 0.0,
         weight: FontWeight.w400,
-      ); TextStyle get normal22w400g => customStyle(
+      );
+  TextStyle get normal22w400g => customStyle(fontSize: 22, letterSpacing: 0.0, weight: FontWeight.w400, fontFamily: Constant.genos);
+  TextStyle get normal36w600 => customStyle(
+        fontSize: 36,
+        letterSpacing: 0.0,
+        weight: FontWeight.w600,
+      );
+  TextStyle get normal22w700 => customStyle(
         fontSize: 22,
         letterSpacing: 0.0,
-        weight: FontWeight.w400,
-    fontFamily: Constant.genos
+        weight: FontWeight.w700,
       );
-  TextStyle get normal36w600 => customStyle(
-    fontSize: 36,
-    letterSpacing: 0.0,
-    weight: FontWeight.w600,
-  );
-  TextStyle get normal22w700 => customStyle(
-    fontSize: 22,
-    letterSpacing: 0.0,
-    weight: FontWeight.w700,
-  );
   TextStyle get normal13w500 => customStyle(
         fontSize: 13,
         letterSpacing: 0.0,
@@ -184,12 +157,8 @@ extension TextStyleExtensions on TextStyle {
         fontSize: 13,
         letterSpacing: 0.0,
         weight: FontWeight.w400,
-      );TextStyle get normal13w400g => customStyle(
-        fontSize: 13,
-        letterSpacing: 0.0,
-        weight: FontWeight.w400,
-    fontFamily: Constant.genos
       );
+  TextStyle get normal13w400g => customStyle(fontSize: 13, letterSpacing: 0.0, weight: FontWeight.w400, fontFamily: Constant.genos);
 
   TextStyle get normal11w600 => customStyle(
         fontSize: 11,
@@ -203,15 +172,11 @@ extension TextStyleExtensions on TextStyle {
         weight: FontWeight.w600,
       );
   TextStyle get normal18w500 => customStyle(
-    fontSize: 18,
-    letterSpacing: 0.0,
-    weight: FontWeight.w500,
-  );TextStyle get normal18w500g => customStyle(
-    fontSize: 18,
-    letterSpacing: 0.0,
-    weight: FontWeight.w500,
-    fontFamily: Constant.genos
-  );
+        fontSize: 18,
+        letterSpacing: 0.0,
+        weight: FontWeight.w500,
+      );
+  TextStyle get normal18w500g => customStyle(fontSize: 18, letterSpacing: 0.0, weight: FontWeight.w500, fontFamily: Constant.genos);
   TextStyle get normal8w500 => customStyle(
         fontSize: 8,
         letterSpacing: 0.0,
@@ -252,12 +217,8 @@ extension TextStyleExtensions on TextStyle {
         fontSize: 20,
         letterSpacing: 0.0,
         weight: FontWeight.w600,
-      );  TextStyle get normal26w600g => customStyle(
-        fontSize: 26,
-        letterSpacing: 0.0,
-        weight: FontWeight.w600,
-    fontFamily: Constant.genos
       );
+  TextStyle get normal26w600g => customStyle(fontSize: 26, letterSpacing: 0.0, weight: FontWeight.w600, fontFamily: Constant.genos);
 
   TextStyle get normal42w600 => customStyle(
         fontSize: 42,
@@ -265,10 +226,10 @@ extension TextStyleExtensions on TextStyle {
         weight: FontWeight.w600,
       );
   TextStyle get normal42w400 => customStyle(
-    fontSize: 42,
-    letterSpacing: 0.0,
-    weight: FontWeight.w400,
-  );
+        fontSize: 42,
+        letterSpacing: 0.0,
+        weight: FontWeight.w400,
+      );
   TextStyle get normal14w400 => customStyle(
         fontSize: 14,
         letterSpacing: 0.0,
@@ -281,20 +242,16 @@ extension TextStyleExtensions on TextStyle {
         weight: FontWeight.w600,
       );
   TextStyle get normal14w700 => customStyle(
-    fontSize: 14,
-    letterSpacing: 0.0,
-    weight: FontWeight.w700,
-  );
+        fontSize: 14,
+        letterSpacing: 0.0,
+        weight: FontWeight.w700,
+      );
   TextStyle get normal14w500 => customStyle(
         fontSize: 14,
         letterSpacing: 0.0,
         weight: FontWeight.w500,
-      ); TextStyle get normal14w500g => customStyle(
-        fontSize: 14,
-        letterSpacing: 0.0,
-        weight: FontWeight.w500,
-    fontFamily: Constant.genos
       );
+  TextStyle get normal14w500g => customStyle(fontSize: 14, letterSpacing: 0.0, weight: FontWeight.w500, fontFamily: Constant.genos);
 
   TextStyle get normal11w400 => customStyle(
         fontSize: 11,
@@ -306,27 +263,15 @@ extension TextStyleExtensions on TextStyle {
         fontSize: 18,
         letterSpacing: 0.0,
         weight: FontWeight.w400,
-      ); TextStyle get normal18w400g => customStyle(
-        fontSize: 18,
-        letterSpacing: 0.0,
-        weight: FontWeight.w400,
-    fontFamily: Constant.genos
       );
-  TextStyle get normal20w400g => customStyle(
-        fontSize: 18,
-        letterSpacing: 0.0,
-        weight: FontWeight.w400,
-    fontFamily: Constant.genos
-      );
-
+  TextStyle get normal18w400g => customStyle(fontSize: 18, letterSpacing: 0.0, weight: FontWeight.w400, fontFamily: Constant.genos);
+  TextStyle get normal20w400g => customStyle(fontSize: 18, letterSpacing: 0.0, weight: FontWeight.w400, fontFamily: Constant.genos);
 
   TextStyle get normal30w600 => customStyle(
         fontSize: 30,
         letterSpacing: 0.0,
         weight: FontWeight.w600,
-
       );
-
 
   // TextStyle get normal18w600 => customStyle(
   //     fontSize: 18,
@@ -359,12 +304,11 @@ extension TextStyleExtensions on TextStyle {
     required double fontSize,
     required FontWeight weight,
     String? fontFamily,
-
-    // required String fontFamily,
   }) =>
       copyWith(
-          letterSpacing: letterSpacing,
-          fontSize: fontSize,
-          fontWeight: weight,
-          fontFamily: fontFamily??Constant.fontFamily);
+        letterSpacing: letterSpacing,
+        fontSize: fontSize,
+        fontWeight: weight,
+        fontFamily: fontFamily ?? Constant.fontFamily,
+      );
 }

@@ -1,4 +1,5 @@
 import 'package:ft_chetak_books/package/config_packages.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class CommonAppButton extends StatelessWidget {
   final Function()? onTap;
@@ -98,7 +99,7 @@ class CommonAppButton extends StatelessWidget {
                       child: Text(
                         text!,
                         style: style ??
-                            const TextStyle().normal24w500g.textColor(
+                            GoogleFonts.genos().normal24w500g.textColor(
                                 isBorder == true
                                     ? AppColor.orangeColor
                                     : AppColor.white),
@@ -108,7 +109,7 @@ class CommonAppButton extends StatelessWidget {
                       child: Text(
                         text!,
                         style: style ??
-                            const TextStyle().normal18w500g.textColor(
+                            GoogleFonts.genos().normal18w500g.textColor(
                                 isBorder == true
                                     ? AppColor.orangeColor
                                     : AppColor.white),

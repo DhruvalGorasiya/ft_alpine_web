@@ -1,5 +1,6 @@
 import 'package:ft_chetak_books/components/common_function.dart';
 import 'package:ft_chetak_books/module/featured/featured_controller.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../../../package/config_packages.dart';
 import '../../utils/common_dialog.dart';
 import 'add featured/add_featured_screen.dart';
@@ -39,11 +40,11 @@ class _FeaturedScreenState extends State<FeaturedScreen> {
                     children: [
                       Text(
                         "Pages / Featured",
-                        style: const TextStyle().normal20w300g,
+                        style: GoogleFonts.genos().normal20w300g,
                       ),
                       Text(
                         "FEATURED LIST",
-                        style: Responsive.isDesktop(context) ? TextStyle().normal28w400:TextStyle().normal22w700,
+                        style: Responsive.isDesktop(context) ? GoogleFonts.genos().normal28w400:GoogleFonts.genos().normal22w700,
                         overflow: TextOverflow.ellipsis,
                       ),
                       const Gap(34),
@@ -94,7 +95,7 @@ class _FeaturedScreenState extends State<FeaturedScreen> {
                             Expanded(
                               child: Text(
                                 featuredController.getFeaturedModel.value?.data?[index].thumbnailDescription ?? "",
-                                style: const TextStyle().normal20w400,
+                                style: GoogleFonts.genos().normal20w400,
                                 overflow: TextOverflow.ellipsis,
                                 softWrap: true,
                               ),

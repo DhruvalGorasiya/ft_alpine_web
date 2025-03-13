@@ -1,5 +1,6 @@
 import 'package:ft_chetak_books/components/input_field.dart';
 import 'package:ft_chetak_books/package/config_packages.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
 
 import '../../../components/common_function.dart';
@@ -84,11 +85,11 @@ class _AddOnGoingScreenState extends State<AddOnGoingScreen> {
                   child: Icon(Icons.arrow_back)),
               Text(
                 "Pages / Ongoing projects / ${widget.name.toString()}  ",
-                style: const TextStyle().normal20w300g,
+                style: GoogleFonts.genos().normal20w300g,
               ),
               Text(
                 widget.name.toString(),
-                style: Responsive.isDesktop(context) ? TextStyle().normal28w400 : TextStyle().normal22w700,
+                style: Responsive.isDesktop(context) ? GoogleFonts.genos().normal28w400 : GoogleFonts.genos().normal22w700,
                 overflow: TextOverflow.ellipsis,
               ),
               const Gap(34),
@@ -102,13 +103,13 @@ class _AddOnGoingScreenState extends State<AddOnGoingScreen> {
                             children: [
                               Text(
                                 "Project name",
-                                style: const TextStyle().normal18w500g.textColor(AppColor.grayColor),
+                                style: GoogleFonts.genos().normal18w500g.textColor(AppColor.grayColor),
                               ),
                               const Gap(8),
                               InputField(
                                 controller: addOnGoingController.projectNameController,
                                 hint: "Enter here",
-                                hintStyle: const TextStyle().normal18w400g.textColor(AppColor.black),
+                                hintStyle: GoogleFonts.genos().normal18w400g.textColor(AppColor.black),
                               )
                             ],
                           ),
@@ -121,13 +122,13 @@ class _AddOnGoingScreenState extends State<AddOnGoingScreen> {
                             children: [
                               Text(
                                 "Location",
-                                style: const TextStyle().normal18w500g.textColor(AppColor.grayColor),
+                                style: GoogleFonts.genos().normal18w500g.textColor(AppColor.grayColor),
                               ),
                               const Gap(8),
                               InputField(
                                 controller: addOnGoingController.locationController,
                                 hint: "Enter here",
-                                hintStyle: const TextStyle().normal18w400g.textColor(AppColor.black),
+                                hintStyle: GoogleFonts.genos().normal18w400g.textColor(AppColor.black),
                               )
                             ],
                           ),
@@ -140,13 +141,13 @@ class _AddOnGoingScreenState extends State<AddOnGoingScreen> {
                             children: [
                               Text(
                                 "Area",
-                                style: const TextStyle().normal18w500g.textColor(AppColor.grayColor),
+                                style: GoogleFonts.genos().normal18w500g.textColor(AppColor.grayColor),
                               ),
                               const Gap(8),
                               InputField(
                                 controller: addOnGoingController.areaController,
                                 hint: "Enter here",
-                                hintStyle: const TextStyle().normal18w400g.textColor(AppColor.black),
+                                hintStyle: GoogleFonts.genos().normal18w400g.textColor(AppColor.black),
                               )
                             ],
                           ),
@@ -160,13 +161,13 @@ class _AddOnGoingScreenState extends State<AddOnGoingScreen> {
                           children: [
                             Text(
                               "Project name",
-                              style: const TextStyle().normal18w500g.textColor(AppColor.grayColor),
+                              style: GoogleFonts.genos().normal18w500g.textColor(AppColor.grayColor),
                             ),
                             const Gap(8),
                             InputField(
                               controller: addOnGoingController.projectNameController,
                               hint: "Enter here",
-                              hintStyle: const TextStyle().normal18w400g.textColor(AppColor.black),
+                              hintStyle: GoogleFonts.genos().normal18w400g.textColor(AppColor.black),
                             )
                           ],
                         ),
@@ -176,13 +177,13 @@ class _AddOnGoingScreenState extends State<AddOnGoingScreen> {
                           children: [
                             Text(
                               "Location",
-                              style: const TextStyle().normal18w500g.textColor(AppColor.grayColor),
+                              style: GoogleFonts.genos().normal18w500g.textColor(AppColor.grayColor),
                             ),
                             const Gap(8),
                             InputField(
                               controller: addOnGoingController.locationController,
                               hint: "Enter here",
-                              hintStyle: const TextStyle().normal18w400g.textColor(AppColor.black),
+                              hintStyle: GoogleFonts.genos().normal18w400g.textColor(AppColor.black),
                             )
                           ],
                         ),
@@ -192,13 +193,13 @@ class _AddOnGoingScreenState extends State<AddOnGoingScreen> {
                           children: [
                             Text(
                               "Area",
-                              style: const TextStyle().normal18w500g.textColor(AppColor.grayColor),
+                              style: GoogleFonts.genos().normal18w500g.textColor(AppColor.grayColor),
                             ),
                             const Gap(8),
                             InputField(
                               controller: addOnGoingController.areaController,
                               hint: "Enter here",
-                              hintStyle: const TextStyle().normal18w400g.textColor(AppColor.black),
+                              hintStyle: GoogleFonts.genos().normal18w400g.textColor(AppColor.black),
                             )
                           ],
                         ),
@@ -225,7 +226,7 @@ class _AddOnGoingScreenState extends State<AddOnGoingScreen> {
               const Gap(34),
               Text(
                 "ADD VERTICAL IMAGES",
-                style: const TextStyle().normal20w400,
+                style: GoogleFonts.genos().normal20w400,
               ),
               const Gap(22),
               Responsive.isDesktop(context)
@@ -250,7 +251,7 @@ class _AddOnGoingScreenState extends State<AddOnGoingScreen> {
                                 const Gap(15),
                                 Text(
                                   "Upload photos",
-                                  style: const TextStyle().normal16w500g,
+                                  style: GoogleFonts.genos().normal16w500g,
                                 ),
                               ],
                             )),
@@ -345,7 +346,7 @@ class _AddOnGoingScreenState extends State<AddOnGoingScreen> {
                                 const Gap(15),
                                 Text(
                                   "Upload photos",
-                                  style: const TextStyle().normal16w500g,
+                                  style: GoogleFonts.genos().normal16w500g,
                                 ),
                               ],
                             )),
@@ -412,12 +413,12 @@ class _AddOnGoingScreenState extends State<AddOnGoingScreen> {
                     ),
               Text(
                 "Ratio- 16:9 / H:638 - W:450 / File type: PNG-JPG",
-                style: const TextStyle().normal20w300g,
+                style: GoogleFonts.genos().normal20w300g,
               ),
               const Gap(34),
               Text(
                 "ADD HORIZONTAL IMAGES",
-                style: const TextStyle().normal20w400,
+                style: GoogleFonts.genos().normal20w400,
               ),
               const Gap(22),
               Responsive.isDesktop(context)
@@ -442,7 +443,7 @@ class _AddOnGoingScreenState extends State<AddOnGoingScreen> {
                                 const Gap(15),
                                 Text(
                                   "Upload photos",
-                                  style: const TextStyle().normal16w500g,
+                                  style: GoogleFonts.genos().normal16w500g,
                                 ),
                               ],
                             )),
@@ -528,7 +529,7 @@ class _AddOnGoingScreenState extends State<AddOnGoingScreen> {
                                 const Gap(15),
                                 Text(
                                   "Upload photos",
-                                  style: const TextStyle().normal16w500g,
+                                  style: GoogleFonts.genos().normal16w500g,
                                 ),
                               ],
                             )),
@@ -616,7 +617,7 @@ class _AddOnGoingScreenState extends State<AddOnGoingScreen> {
                     ),
               Text(
                 "Ratio- 16:9 / H:638 - W:1134 / File type: PNG-JPG",
-                style: const TextStyle().normal20w300g,
+                style: GoogleFonts.genos().normal20w300g,
               ),
               const Gap(34),
               CommonAppButton(

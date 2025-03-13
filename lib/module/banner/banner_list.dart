@@ -4,6 +4,7 @@ import 'package:ft_chetak_books/module/banner/add/add_banner_screen.dart';
 import 'package:ft_chetak_books/module/banner/banner_list_controller.dart';
 import 'package:ft_chetak_books/package/config_packages.dart';
 import 'package:ft_chetak_books/utils/common_dialog.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class BannerListScreen extends StatefulWidget {
   const BannerListScreen({super.key});
@@ -41,7 +42,7 @@ class _BannerListScreenState extends State<BannerListScreen> {
 
                       Text(
                         "Banners",
-                        style: Responsive.isDesktop(context) ? TextStyle().normal32w600:TextStyle().normal22w700,
+                        style: Responsive.isDesktop(context) ? GoogleFonts.genos().normal32w600:GoogleFonts.genos().normal22w700,
                         overflow: TextOverflow.ellipsis,
                       ),
                     ],
@@ -152,7 +153,7 @@ class _BannerListScreenState extends State<BannerListScreen> {
                         ),
                         title: Text(
                           bannerController.bannerModel.value?.data?[index].page ?? "",
-                          style: const TextStyle().normal20w400.textColor(
+                          style: GoogleFonts.genos().normal20w400.textColor(
                             AppColor.black,
                           ),
                         ),

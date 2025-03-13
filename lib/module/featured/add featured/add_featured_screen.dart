@@ -1,5 +1,6 @@
 import 'package:ft_chetak_books/components/input_field.dart';
 import 'package:ft_chetak_books/package/config_packages.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
 
 import '../../../components/common_function.dart';
@@ -50,11 +51,11 @@ class _AddFeaturedScreenState extends State<AddFeaturedScreen> {
               Gap(10),
               Text(
                 "Pages / Studio images / Add Featured",
-                style: const TextStyle().normal20w300g,
+                style: GoogleFonts.genos().normal20w300g,
               ),
               Text(
                 "ADD FEATURED",
-                style: const TextStyle().normal28w400,
+                style: GoogleFonts.genos().normal28w400,
               ),
               const Gap(34),
               Column(
@@ -62,20 +63,20 @@ class _AddFeaturedScreenState extends State<AddFeaturedScreen> {
                 children: [
                   Text(
                     "Featured thumbnail description",
-                    style: const TextStyle().normal18w500g.textColor(AppColor.grayColor),
+                    style: GoogleFonts.genos().normal18w500g.textColor(AppColor.grayColor),
                   ),
                   const Gap(8),
                   InputField(
                     controller: addFeaturedController.projectNameController,
                     hint: "Enter here",
-                    hintStyle: const TextStyle().normal18w400g.textColor(AppColor.black),
+                    hintStyle: GoogleFonts.genos().normal18w400g.textColor(AppColor.black),
                   )
                 ],
               ),
               const Gap(8),
               Text(
                 "You can only add 51 characters",
-                style: const TextStyle().normal14w500g.textColor(AppColor.grayColor),
+                style: GoogleFonts.genos().normal14w500g.textColor(AppColor.grayColor),
               ),
               const Gap(22),
               SingleChildScrollView(
@@ -102,7 +103,7 @@ class _AddFeaturedScreenState extends State<AddFeaturedScreen> {
                             Obx(
                               () => Text(
                                 addFeaturedController.file.value.path.isEmpty ? "Upload file" : "Edit file",
-                                style: const TextStyle().normal16w500g,
+                                style: GoogleFonts.genos().normal16w500g,
                               ),
                             ),
                           ],

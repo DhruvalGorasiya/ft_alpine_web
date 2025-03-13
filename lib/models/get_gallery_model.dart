@@ -7,13 +7,13 @@ class GetGalleryModel {
     if (json['data'] != null) {
       data = <Data>[];
       json['data'].forEach((v) {
-        data!.add(new Data.fromJson(v));
+        data!.add(Data.fromJson(v));
       });
     }
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
+    final Map<String, dynamic> data = <String, dynamic>{};
     if (this.data != null) {
       data['data'] = this.data!.map((v) => v.toJson()).toList();
     }
@@ -35,19 +35,19 @@ class Data {
     if (json['verticle_image'] != null) {
       verticleImage = <VerticleImage>[];
       json['verticle_image'].forEach((v) {
-        verticleImage!.add(new VerticleImage.fromJson(v));
+        verticleImage!.add(VerticleImage.fromJson(v));
       });
     }
     if (json['horizontal_image'] != null) {
       horizontalImage = <HorizontalImage>[];
       json['horizontal_image'].forEach((v) {
-        horizontalImage!.add(new HorizontalImage.fromJson(v));
+        horizontalImage!.add(HorizontalImage.fromJson(v));
       });
     }
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
+    final Map<String, dynamic> data = <String, dynamic>{};
     data['id'] = this.id;
     data['category'] = this.category;
     if (this.verticleImage != null) {
@@ -74,7 +74,7 @@ class VerticleImage {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
+    final Map<String, dynamic> data = <String, dynamic>{};
     data['id'] = this.id;
     data['url'] = this.url;
     return data;
@@ -91,7 +91,7 @@ class VerticleImage {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
+    final Map<String, dynamic> data = <String, dynamic>{};
     data['id'] = this.id;
     data['url'] = this.url;
     return data;

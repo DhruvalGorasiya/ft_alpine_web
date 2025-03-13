@@ -1,6 +1,7 @@
 import 'package:ft_chetak_books/components/common_function.dart';
 import 'package:ft_chetak_books/module/portfolio/portfolio%20detail/portfolio_detail_controller.dart';
 import 'package:ft_chetak_books/utils/common_dialog.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../../../package/config_packages.dart';
 import '../add protfolio/add_protfolio_screen.dart';
@@ -49,11 +50,11 @@ class _PortfolioDetailScreenState extends State<PortfolioDetailScreen> {
                       const Gap(10),
                       Text(
                         "Pages / Portfolio / ${widget.name}  ",
-                        style: const TextStyle().normal20w300g,
+                        style: GoogleFonts.genos().normal20w300g,
                       ),
                       Text(
                         widget.name.toString(),
-                        style: Responsive.isDesktop(context) ? TextStyle().normal28w400:TextStyle().normal22w700,
+                        style: Responsive.isDesktop(context) ? GoogleFonts.genos().normal28w400:GoogleFonts.genos().normal22w700,
                          overflow: TextOverflow.ellipsis,
                       ),
                       const Gap(34),
@@ -166,7 +167,7 @@ class _PortfolioDetailScreenState extends State<PortfolioDetailScreen> {
                         ),
                         title: Text(
                           portfolioDetailController.getPortfolioModel.value?.data?[index].projectName ?? "",
-                          style: const TextStyle().normal28w700.textColor(
+                          style: GoogleFonts.genos().normal28w700.textColor(
                                 AppColor.black,
                               ),
                         ),

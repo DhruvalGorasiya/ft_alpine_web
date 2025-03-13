@@ -1,5 +1,6 @@
 import 'package:ft_chetak_books/module/authentication/create%20new%20password/create_new_password_screen.dart';
 import 'package:ft_chetak_books/package/config_packages.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../../../components/common_button.dart';
 import '../../../components/common_column_sidebar.dart';
 class CheckMailScreen extends StatefulWidget {
@@ -43,9 +44,9 @@ class _CheckMailScreenState extends State<CheckMailScreen> {
                     children: [
                       Image.asset(AppImage.mailImage,height: 120,width: 120,),
                       const Gap(24),
-                      Text("Check your mail",style: const TextStyle().normal24w400,),
+                      Text("Check your mail",style: GoogleFonts.genos().normal24w400,),
                       const Gap(8),
-                      Center(child: Text("We have sent a password recover instructions to your email.",style: const TextStyle().normal20w400g,textAlign: TextAlign.center,)),
+                      Center(child: Text("We have sent a password recover instructions to your email.",style: GoogleFonts.genos().normal20w400g,textAlign: TextAlign.center,)),
                       const Spacer(),
                       CommonButton(
                         onTap: (){
@@ -61,7 +62,7 @@ class _CheckMailScreenState extends State<CheckMailScreen> {
                           onTap: (){
                             Navigator.of(context).push(MaterialPageRoute(builder: (context) =>  CreateNewPasswordScreen(email: widget.email,)));
                           },
-                          child: Text("Skip, I’ll confirm later",style: const TextStyle().normal22w400g.textColor(AppColor.black),))
+                          child: Text("Skip, I’ll confirm later",style: GoogleFonts.genos().normal22w400g.textColor(AppColor.black),))
                     ],
                   ),
                 ),
@@ -75,9 +76,9 @@ class _CheckMailScreenState extends State<CheckMailScreen> {
                   children: [
                     Image.asset(AppImage.mailImage,height: 120,width: 120,),
                     const Gap(24),
-                    Text("Check your mail",style: const TextStyle().normal24w400,),
+                    Text("Check your mail",style: GoogleFonts.genos().normal24w400,),
                     const Gap(8),
-                    Center(child: Text("We have sent a password recover instructions to your email.",style: const TextStyle().normal20w400g,textAlign: TextAlign.center,)),
+                    Center(child: Text("We have sent a password recover instructions to your email.",style: GoogleFonts.genos().normal20w400g,textAlign: TextAlign.center,)),
                     const Spacer(),
                     CommonButton(
                       onTap: (){
@@ -93,7 +94,7 @@ class _CheckMailScreenState extends State<CheckMailScreen> {
                         onTap: (){
                           Navigator.of(context).push(MaterialPageRoute(builder: (context) =>  CreateNewPasswordScreen(email: widget.email,)));
                         },
-                        child: Text("Skip, I’ll confirm later",style: const TextStyle().normal22w400g.textColor(AppColor.black),))
+                        child: Text("Skip, I’ll confirm later",style: GoogleFonts.genos().normal22w400g.textColor(AppColor.black),))
                   ],
                 ),
               ),

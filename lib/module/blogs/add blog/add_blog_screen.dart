@@ -1,5 +1,6 @@
 import 'package:ft_chetak_books/components/common_function.dart';
 import 'package:ft_chetak_books/package/config_packages.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
 import '../../../components/input_field.dart';
 import '../../../models/get_blog_model.dart';
@@ -67,16 +68,16 @@ class _AddBlogScreenState extends State<AddBlogScreen> {
                   child: const Icon(Icons.arrow_back)),
               Text(
                 "Pages / Blogs / Add blog",
-                style: const TextStyle().normal20w300g,
+                style: GoogleFonts.genos().normal20w300g,
               ),
               Text(
                 "ADD BLOG",
-                style: const TextStyle().normal28w400,
+                style: GoogleFonts.genos().normal28w400,
               ),
               const Gap(34),
               Text(
                 "BLOG HERO IMAGE",
-                style: const TextStyle().normal20w400,
+                style: GoogleFonts.genos().normal20w400,
               ),
               const Gap(22),
               SingleChildScrollView(
@@ -102,7 +103,7 @@ class _AddBlogScreenState extends State<AddBlogScreen> {
                             const Gap(15),
                             Text(
                               "Upload photos",
-                              style: const TextStyle().normal16w500g,
+                              style: GoogleFonts.genos().normal16w500g,
                             ),
                           ],
                         )),
@@ -185,7 +186,7 @@ class _AddBlogScreenState extends State<AddBlogScreen> {
               const Gap(34),
               Text(
                 "ADD VERTICAL IMAGES",
-                style: const TextStyle().normal20w400,
+                style: GoogleFonts.genos().normal20w400,
               ),
               const Gap(22),
               Row(
@@ -209,7 +210,7 @@ class _AddBlogScreenState extends State<AddBlogScreen> {
                           const Gap(15),
                           Text(
                             "Upload photos",
-                            style: const TextStyle().normal16w500g,
+                            style: GoogleFonts.genos().normal16w500g,
                           ),
                         ],
                       )),
@@ -308,7 +309,7 @@ class _AddBlogScreenState extends State<AddBlogScreen> {
               const Gap(34),
               Text(
                 "ADD HORIZONTAL IMAGES",
-                style: const TextStyle().normal20w400,
+                style: GoogleFonts.genos().normal20w400,
               ),
               const Gap(22),
               Row(
@@ -332,7 +333,7 @@ class _AddBlogScreenState extends State<AddBlogScreen> {
                           const Gap(15),
                           Text(
                             "Upload photos",
-                            style: const TextStyle().normal16w500g,
+                            style: GoogleFonts.genos().normal16w500g,
                           ),
                         ],
                       )),
@@ -430,23 +431,23 @@ class _AddBlogScreenState extends State<AddBlogScreen> {
               const Gap(22),
               Text(
                 "Blog title",
-                style: const TextStyle().normal18w500g.textColor(AppColor.grayColor),
+                style: GoogleFonts.genos().normal18w500g.textColor(AppColor.grayColor),
               ),
               InputField(
                 controller: addBlogController.titleController,
                 hint: "Architectural Alchemy: Crafting Dreams into Concrete Realities",
-                hintStyle: const TextStyle().normal18w400g.textColor(AppColor.black),
+                hintStyle: GoogleFonts.genos().normal18w400g.textColor(AppColor.black),
               ),
               const Gap(22),
               Text(
                 "Content",
-                style: const TextStyle().normal18w500g.textColor(AppColor.grayColor),
+                style: GoogleFonts.genos().normal18w500g.textColor(AppColor.grayColor),
               ),
               InputField(
                 maxLine: 10,
                 controller: addBlogController.contentController,
                 hint: "Enter here",
-                hintStyle: const TextStyle().normal18w400g.textColor(AppColor.black),
+                hintStyle: GoogleFonts.genos().normal18w400g.textColor(AppColor.black),
               ),
               const Gap(34),
               CommonAppButton(

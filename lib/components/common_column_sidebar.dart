@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ft_chetak_books/package/config_packages.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../res/color_schema.dart';
 import '../utils/image.dart';
@@ -29,7 +30,7 @@ class CommonColumnSideBar extends StatelessWidget {
             child: Center(
                 child: Text(
                   "A Product By Digilligence",
-                  style: const TextStyle()
+                  style: GoogleFonts.genos()
                       .normal20w400
                       .textColor(AppColor.white),
                   textAlign: TextAlign.center,

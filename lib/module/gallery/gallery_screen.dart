@@ -3,6 +3,7 @@ import 'package:ft_chetak_books/components/common_function.dart';
 import 'package:ft_chetak_books/models/category_model.dart';
 import 'package:ft_chetak_books/module/tab/tab_controller.dart';
 import 'package:ft_chetak_books/package/config_packages.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import 'gallery detail/gallery_detail_screen.dart';
 
@@ -26,11 +27,11 @@ class _GalleryScreenState extends State<GalleryScreen> {
           children: [
             Text(
               "Pages / Gallery",
-              style: const TextStyle().normal20w300g,
+              style: GoogleFonts.genos().normal20w300g,
             ),
             Text(
               "GALLERY CATEGORY LIST",
-              style: const TextStyle().normal28w400,
+              style: GoogleFonts.genos().normal28w400,
             ),
             const Gap(34),
             Expanded(
@@ -88,7 +89,7 @@ class _GalleryScreenState extends State<GalleryScreen> {
                                   children: [
                                     Text(
                                       data?.name??"",
-                                      style: const TextStyle().normal14w400.textColor(AppColor.white),
+                                      style: GoogleFonts.genos().normal14w400.textColor(AppColor.white),
                                     ),
                                   ],
                                 ),

@@ -1,5 +1,6 @@
 import 'package:ft_chetak_books/package/config_packages.dart';
 import 'package:ft_chetak_books/utils/responsive.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HeaderText extends StatelessWidget {
   const HeaderText({super.key, required this.text, this.textStyle, this.color});
@@ -14,10 +15,10 @@ class HeaderText extends StatelessWidget {
       text,
       style: textStyle ??
           (Responsive.isDesktop(context)
-              ? const TextStyle()
+              ? GoogleFonts.genos()
                   .textColor(color ?? AppColor.black)
                   .normal32w600
-              : const TextStyle()
+              : GoogleFonts.genos()
                   .textColor(color ?? AppColor.black)
                   .normal22w600),
     );

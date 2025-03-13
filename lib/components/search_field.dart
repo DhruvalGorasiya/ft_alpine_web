@@ -1,4 +1,5 @@
 import 'package:ft_chetak_books/package/config_packages.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class SearchField extends StatelessWidget {
   const SearchField(
@@ -21,7 +22,7 @@ class SearchField extends StatelessWidget {
       onChanged: onChanged,
       onFieldSubmitted: onFieldSubmitted,
       controller: textEditingController,
-      style: const TextStyle().normal14w500.textColor(AppColor.black),
+      style: GoogleFonts.genos().normal14w500.textColor(AppColor.black),
       cursorColor: AppColor.black,
       decoration: InputDecoration(
         hoverColor: AppColor.white,
@@ -31,7 +32,7 @@ class SearchField extends StatelessWidget {
         hintText: hintText,
         suffixIcon:suffixIcon,
         hintStyle:
-            const TextStyle().normal14w500.textColor(AppColor.orangeColor),
+            GoogleFonts.genos().normal14w500.textColor(AppColor.orangeColor),
         fillColor: AppColor.white,
         filled: true,
         border: OutlineInputBorder(

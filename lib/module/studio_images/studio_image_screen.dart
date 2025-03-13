@@ -1,5 +1,6 @@
 import 'package:ft_chetak_books/components/common_function.dart';
 import 'package:ft_chetak_books/module/studio_images/studio_image_controller.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../../../package/config_packages.dart';
 import '../../utils/common_dialog.dart';
@@ -40,11 +41,11 @@ class _StudioImagesScreenState extends State<StudioImagesScreen> {
                     children: [
                       Text(
                         "Pages / Studio images",
-                        style: const TextStyle().normal20w300g,
+                        style: GoogleFonts.genos().normal20w300g,
                       ),
                       Text(
                         "STUDIO IMAGES LIST",
-                        style: Responsive.isDesktop(context) ?  TextStyle().normal28w400:TextStyle().normal22w700,
+                        style: Responsive.isDesktop(context) ?  GoogleFonts.genos().normal28w400:GoogleFonts.genos().normal22w700,
                         overflow: TextOverflow.ellipsis,
                       ),
                       const Gap(34),
