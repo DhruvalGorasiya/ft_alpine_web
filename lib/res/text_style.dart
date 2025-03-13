@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class Constant {
-  static String fontFamily = "AudioWide";
   static String genos = "genos";
 }
 
@@ -309,6 +308,6 @@ extension TextStyleExtensions on TextStyle {
         letterSpacing: letterSpacing,
         fontSize: fontSize,
         fontWeight: weight,
-        fontFamily: fontFamily ?? Constant.fontFamily,
+        fontFamily: fontFamily,
       );
 }

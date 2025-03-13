@@ -3,7 +3,10 @@ name: Deploy Flutter Web to GitHub Pages
 on:
   push:
     branches:
-      - main  # Change this if your main branch has a different name
+      - main  # Adjust if your default branch is different
+
+permissions:
+  contents: write  # ✅ Allows the workflow to push to gh-pages
 
 jobs:
   build-and-deploy:
@@ -16,7 +19,7 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: 3.27.0  # Use the version you are working with
+          flutter-version: 3.27.0  # Adjust to your Flutter version
           channel: stable
 
       - name: Enable Flutter Web
@@ -33,3 +36,13 @@ jobs:
         with:
           branch: gh-pages
           folder: build/web
+          clean: true  # Optional: Ensures old files are deleted before deployment
+
+      - name: Push to GitHub Pages
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git remote set-url origin https://<YOUR_GITHUB_USERNAME>:${{ secrets.GH_PAT }}@github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPOSITORY>.git
+          git push origin gh-pages --force
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}

@@ -1,6 +1,7 @@
 import 'package:ft_chetak_books/module/authentication/login/login_screen.dart';
 import 'package:ft_chetak_books/module/tab/tab_screen.dart';
 import 'package:ft_chetak_books/package/config_packages.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 
 
@@ -53,6 +54,9 @@ class _AlpineAppState extends State<AlpineApp> with WidgetsBindingObserver {
           child: child ?? Container(),
         );
       },
+      theme: ThemeData(
+        textTheme: GoogleFonts.audiowideTextTheme()
+      ),
       localizationsDelegates: const [
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
