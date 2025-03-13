@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart' as d;
-import 'package:ft_chetak_books/module/ongoing%20projects/ongoing%20detail/ongoing_detail_controller.dart';
+import 'package:ft_chetak_books/module/ongoing_projects/ongoing_detail/ongoing_detail_controller.dart';
 import 'package:ft_chetak_books/package/config_packages.dart'
     hide FormData, MultipartFile;
 import 'package:image_picker/image_picker.dart';

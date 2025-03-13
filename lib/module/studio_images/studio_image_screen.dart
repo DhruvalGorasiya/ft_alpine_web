@@ -1,9 +1,9 @@
 import 'package:ft_chetak_books/components/common_function.dart';
-import 'package:ft_chetak_books/module/studio%20images/studio_image_controller.dart';
+import 'package:ft_chetak_books/module/studio_images/studio_image_controller.dart';
 
 import '../../../package/config_packages.dart';
 import '../../utils/common_dialog.dart';
-import 'add studio images/add_studio_image_screen.dart';
+import 'add_studio_images/add_studio_image_screen.dart';
 
 class StudioImagesScreen extends StatefulWidget {
   const StudioImagesScreen({super.key});

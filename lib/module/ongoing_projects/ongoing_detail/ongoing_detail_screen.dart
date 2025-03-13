@@ -1,7 +1,7 @@
 import '../../../components/common_function.dart';
 import '../../../package/config_packages.dart';
 import '../../../utils/common_dialog.dart';
-import '../add ongoing/add_ongoing_screen.dart';
+import '../add_ongoing/add_ongoing_screen.dart';
 import 'ongoing_detail_controller.dart';
 
 class OnGoingDetailScreen extends StatefulWidget {

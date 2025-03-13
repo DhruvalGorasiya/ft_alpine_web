@@ -4,7 +4,7 @@ import 'package:ft_chetak_books/module/tab/tab_controller.dart';
 import 'package:ft_chetak_books/package/config_packages.dart';
 
 import '../../models/category_model.dart';
-import 'ongoing detail/ongoing_detail_screen.dart';
+import 'ongoing_detail/ongoing_detail_screen.dart';
 import 'ongoing_project_controller.dart';
 
 class OngoingProjectsScreen extends StatefulWidget {

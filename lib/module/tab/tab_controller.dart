@@ -1,18 +1,16 @@
 
 import 'package:ft_chetak_books/models/category_model.dart';
-import 'package:ft_chetak_books/module/Portfolio/portfolio_screen.dart';
-import 'package:ft_chetak_books/module/banner/add/add_banner_screen.dart';
+import 'package:ft_chetak_books/module/portfolio/portfolio_screen.dart';
 import 'package:ft_chetak_books/module/banner/banner_list.dart';
-import 'package:ft_chetak_books/module/blogs/add%20blog/add_blog_screen.dart';
-import 'package:ft_chetak_books/module/home%20page%20video/home_page_screen.dart';
+import 'package:ft_chetak_books/module/home_page_video/home_page_screen.dart';
 import 'package:ft_chetak_books/package/config_packages.dart';
 
 import '../blogs/blog_detail_screen.dart';
-import '../by the number/by_the_number_screen.dart';
+import '../by_the_number/by_the_number_screen.dart';
 import '../featured/featured_screen.dart';
 import '../gallery/gallery_screen.dart';
-import '../ongoing projects/ongoing_projects_screen.dart';
-import '../studio images/studio_image_screen.dart';
+import '../ongoing_projects/ongoing_projects_screen.dart';
+import '../studio_images/studio_image_screen.dart';
 import '../testimonial/testimonial_screen.dart';
 
 

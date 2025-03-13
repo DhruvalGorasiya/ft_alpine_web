@@ -1,4 +1,4 @@
-import 'package:ft_chetak_books/module/studio%20images/studio_image_controller.dart';
+import 'package:ft_chetak_books/module/studio_images/studio_image_controller.dart';
 import 'package:ft_chetak_books/package/config_packages.dart' hide FormData, MultipartFile;
 import 'package:image_picker/image_picker.dart';
 import 'package:dio/dio.dart' as d;
