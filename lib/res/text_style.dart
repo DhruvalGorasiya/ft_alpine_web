@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Constant {
-  static String fontFamily = "audio";
+  static String fontFamily = "AudioWide";
   static String genos = "genos";
 }
 

@@ -1,2 +1,43 @@
-# Auto detect text files and perform LF normalization
+# Normalize text files to LF (Unix-style line endings)
 * text=auto
+
+# Ensure Flutter/Dart files use LF line endings
+*.dart text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+
+# Treat images and other assets as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
+*.webp binary
+
+# Ensure font files are preserved properly
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+
+# Flutter assets directory
+assets/** binary
+
+# Exclude build artifacts and generated files from normalization
+build/** binary
+android/** binary
+ios/** binary
+web/** binary
+
+# Prevent issues with Windows/Unix executable permissions
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Flutter dependencies
+pubspec.yaml text eol=lf
+pubspec.lock text eol=lf
