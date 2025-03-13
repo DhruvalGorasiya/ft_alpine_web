@@ -37,3 +37,13 @@ jobs:
           branch: gh-pages
           folder: build/web
           clean: true  # Optional: Ensures old files are deleted before deployment
+
+      - name: Push to GitHub Pages
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git remote set-url origin https://DhruvalGorasiya:${{ secrets.GH_PAT }}@github.com/DhruvalGorasiya/ft_alpine_web.git
+          git push origin gh-pages --force
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+
