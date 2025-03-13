@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "667750783737",
+    "firebase_url": "https://monkey-hill-climb-default-rtdb.firebaseio.com",
+    "project_id": "monkey-hill-climb",
+    "storage_bucket": "monkey-hill-climb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667750783737:android:b4c18003da77b1aec56028",
+        "android_client_info": {
+          "package_name": "com.example.ft_alpine_web"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667750783737-fh58m7ntob3o5i5g3s74joh13k5iup8n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCekY4dMp_S45Ur-iF3gLkeODvzuh8No50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667750783737-fh58m7ntob3o5i5g3s74joh13k5iup8n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "667750783737-sce5gntr80itcqbhgfl0enfibbe11466.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.lazeeapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667750783737:android:0b67884c89272772c56028",
+        "android_client_info": {
+          "package_name": "com.monkey.hill.climber.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667750783737-599tbmaipane2d9tk3q4c2m4iqgo7ruv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.monkey.hill.climber.game",
+            "certificate_hash": "a208b20856989e245ac0f24bab1789b27efc380c"
+          }
+        },
+        {
+          "client_id": "667750783737-fh58m7ntob3o5i5g3s74joh13k5iup8n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCekY4dMp_S45Ur-iF3gLkeODvzuh8No50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667750783737-fh58m7ntob3o5i5g3s74joh13k5iup8n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "667750783737-sce5gntr80itcqbhgfl0enfibbe11466.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.lazeeapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
